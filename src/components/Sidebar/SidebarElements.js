@@ -32,7 +32,25 @@ export const Icon = styled.div`
     outline: none;
 `;
 
-export const SidebarWrapper = styled(LinkS)`
+export const SidebarWrapper = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        color: 01bf71;
+        transition: 0.2s ease-in-out;
+    }
+`;
+
+export const SidebarLink = styled(LinkS)`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,24 +82,6 @@ export const SidebarMenu = styled.ul`
 export const SideBtnWrap = styled.div`
     display: flex;
     justify-content: center;
-`;
-
-export const SidebarLink = styled(LinkS)`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    text-decoration: none;
-    list-style: none;
-    transition: 0.2s ease-in-out;
-    text-decoration: none;
-    color: #fff;
-    cursor: pointer;
-
-    &:hover {
-        color: 01bf71;
-        transition: 0.2s ease-in-out;
-    }
 `;
 
 export const SidebarRoute = styled(LinkR)`

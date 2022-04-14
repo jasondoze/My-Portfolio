@@ -15,13 +15,13 @@ import {
 
 
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
     <>
       <Nav>
         <NavbarContainer>
           <NavbarLogo to='/'>Jason Doze</NavbarLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>

@@ -90,12 +90,12 @@ export const NavBtn = styled.nav`
     
     @media screen and (max-width: 768px) {
         display: none;
-        }   
+    }   
 `;
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #01bf71;
+    background: #ff0000;
     white-space: nowrap;
     padding: 10px 20px;
     color: #010606;

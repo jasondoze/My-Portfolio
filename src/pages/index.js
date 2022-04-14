@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
-import { BrowserRouter as Router } from 'react-router-dom';
+
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,10 +13,12 @@ const Home = () => {
 
 
   return (
-    <Router>
-      <Sidebar />
-      <Navbar />
-    </Router>
+    <>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
+      <HeroSection />
+      
+    </>
   );
 };
 
