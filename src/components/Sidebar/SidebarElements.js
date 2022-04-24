@@ -4,6 +4,7 @@ import { Link as LinkR } from 'react-router-dom';
 import {FaTimes} from 'react-icons/fa';
 
 export const SidebarContainer = styled.aside`
+    
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -11,6 +12,7 @@ export const SidebarContainer = styled.aside`
     background: #0d0d0d;
     display: grid;
     align-items: center;
+
     top: 0;
     left: 0;
     transition: 0.3s ease-in-out;
@@ -32,7 +34,7 @@ export const Icon = styled.div`
     outline: none;
 `;
 
-export const SidebarWrapper = styled(LinkS)`
+export const SidebarWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +47,7 @@ export const SidebarWrapper = styled(LinkS)`
     cursor: pointer;
 
     &:hover {
-        color: 01bf71;
+        color: #010606;
         transition: 0.2s ease-in-out;
     }
 `;
@@ -56,14 +58,9 @@ export const SidebarMenu = styled.ul`
     grid-template-rows: repeat(6, 80px);
     text-align: center;
 
-    @media screen and (max-width: 480px);
-    grid-template-rows: repeat(6, 80px);
+    @media screen and (max-width: 480px) {
+    grid-template-rows: repeat(6, 60px);
     }
-`;
-
-export const SideBtnWrap = styled.div`
-    display: flex;
-    justify-content: center;
 `;
 
 export const SidebarLink = styled(LinkS)`
@@ -79,14 +76,19 @@ export const SidebarLink = styled(LinkS)`
     cursor: pointer;
 
     &:hover {
-        color: 01bf71;
+        color: #ff000d;
         transition: 0.2s ease-in-out;
     }
 `;
 
+export const SideBtnWrap = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+
 export const SidebarRoute = styled(LinkR)`
      border-radius: 50px;
-     background: #01bf71;
+     background: #ff0000;
      white-space: nowrap;
      padding: 16px 64px;
      color: #010606;
@@ -99,7 +101,7 @@ export const SidebarRoute = styled(LinkR)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #fff;
+        background: #ffffff;
         color: #010606;
 `;
 
