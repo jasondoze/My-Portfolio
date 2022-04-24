@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
 
 export const HeroContainer = styled.div`
-    background: flex;
+    border: 2px blue;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 30px;
@@ -12,7 +13,9 @@ export const HeroContainer = styled.div`
 `;
 
 export const HeroBg = styled.div`
-    position; absolute;
+    
+    border: 2px blue;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -23,16 +26,19 @@ export const HeroBg = styled.div`
 `;
 
 export const VideoBg = styled.video`
+border: 2px red;
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
     object-fit: cover;
-    background: #ffffff;
+    background: #fff;
+    
 `;
 
 export const HeroContent = styled.div`
+    border: 3px green;
     z-index: 3;
     max-width: 1200px;
+    position: absolute;
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
@@ -40,12 +46,13 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.div`
-    color: #000000;
-    font-size: 30px;
+    
+    
+    font-size: 38px;
     text-align: center;
     
     @media screen and (max-width: 768px) {
-        fonst-size: 40px;
+        font-size: 40px;
     }
 
     @media screen and (max-width: 480px) {
@@ -53,15 +60,16 @@ export const HeroH1 = styled.div`
     }
 `;
 
-export const HeroP = styled.div`
+export const HeroP = styled.p`
+    
     margin-top: 24px;
-    color: #000000;
+    
     font-size: 24px;
     text-align: center;
     max-width: 600px;
 
     @media screen and (max-width: 768px) {
-        fonst-size: 24px;
+        font-size: 24px;
     }
 
     @media screen and (max-width: 480px) {

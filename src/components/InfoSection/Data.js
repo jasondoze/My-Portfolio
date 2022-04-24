@@ -1,13 +1,50 @@
-// export const homeObjOne = {
+export const homeObjOne = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Lorem Ipsum',
+    headLine: 'Etiam quis viverra',
+    description: 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada. Nulla porttitor accumsan tincidunt.',
+    buttonLabel: 'Contact Me',
+    imgStart: true,
+    img: require('../../images/png-1.png'),
+    alt: 'software developer',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
+
+export const homeObjTwo = {
+    id: 'experience',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Lorem Ipsum',
+    headLine: 'Etiam quis viverra',
+    description: 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada. Nulla porttitor accumsan tincidunt.',
+    buttonLabel: 'Contact Me',
+    imgStart: false,
+    img: require('../../images/png-1.png'),
+    alt: 'software developer',
+    dark: false,
+    primary: false,
+    darkText: true,
+};
+
+// export const homeObjThree = {
 //     id: 'about',
 //     lightBg: false,
 //     lightText: true,
 //     lightTextDesc: true,
-//     topLine: 'Ipsom Lorem',
-//     headLine: 'a;lksjdf;lkja;sldkjfa;lksdjf;lkajsdf',
-//     descrition: 'jdjdjdjdjdjdjdjdjdj',
+//     topLine: 'Lorem Ipsum',
+//     headLine: 'Etiam quis viverra',
+//     description: 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada. Nulla porttitor accumsan tincidunt.',
 //     buttonLabel: 'Contact Me',
-//     imgStart: false,
-//     img: require('../../images/svg-1.svg'),
-//     alt: 'Car'
+//     imgStart: true,
+//     img: require('../../images/png-1.png'),
+//     alt: 'software developer',
+//     dark: true,
+//     primary: true,
+//     darkText: false,
 // }

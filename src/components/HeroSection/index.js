@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
-import { Button } from '../ButtonElement';
+import { Button } from '../ButtonElements';
 import { 
   HeroContainer,
   HeroBg, 
@@ -25,17 +25,22 @@ const HeroSection = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
-          <HeroH1>Lorem Ipsum</HeroH1>
+          <HeroH1>Jason Doze</HeroH1>
             <HeroP>
-              Lorem Ipsum
+              Bio: You don't know me, fool. You disown me, cool. I don't need your assistance, social persistence. Any problem I got I just put my fist in
             </HeroP>
             <HeroBtnWrapper>
               <Button 
-                to='contact'
+                to='signup'
                 onMouseEnter={onHover} 
                 onMouseLeave={onHover}
                 primary='true'
-                dark='true'
+                dark='false'
+                smooth={true}
+                duration={500} 
+                spy={true} 
+                exact='true' 
+                offset={-80}
               >
                 Contact Me {hover ? <ArrowForward /> : <ArrowRight />}
               </Button>
