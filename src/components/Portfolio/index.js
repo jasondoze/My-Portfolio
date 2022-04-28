@@ -1,7 +1,7 @@
 import React from 'react';
-import Icon1 from '../../images/icon.jpg'
-import Icon2 from '../../images/icon.jpg'
-import Icon3 from '../../images/icon.jpg'
+import Icon1 from '../../images/icon.jpg';
+import Icon2 from '../../images/png-1.png';
+import Icon3 from '../../images/png-1.png';
 import {
     PortfolioContainer,
     PortfolioH1,
@@ -30,8 +30,8 @@ const Portfolio = () => {
                 </PortfolioCard>
                 <PortfolioCard>
                     <PortfolioIcon scr={Icon3}/>
-                    <PortfolioH2>What?</PortfolioH2>
-                    <PortfolioP>Yeyaah</PortfolioP>
+                    <PortfolioH2>Lorem ipsum dolor sit amet. </PortfolioH2>
+                    <PortfolioP>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</PortfolioP>
                 </PortfolioCard>
             </PortfolioWrapper>
     </PortfolioContainer>

@@ -43,7 +43,7 @@ const Footer = () => {
                     </FooterLinkItems>
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>
-                    <FooterLinkItems>
+                    {/* <FooterLinkItems>
                         <FooterLinkTitle>About</FooterLinkTitle>
                             <FooterLink to='/signin'>Super</FooterLink>
                             <FooterLink to='/signin'>How</FooterLink>
@@ -54,7 +54,7 @@ const Footer = () => {
                             <FooterLink to='/signin'>Super</FooterLink>
                             <FooterLink to='/signin'>How</FooterLink>
                             <FooterLink to='/signin'>TOS</FooterLink>  
-                    </FooterLinkItems>
+                    </FooterLinkItems> */}
                 </FooterLinksWrapper>
             </FooterLinksContainer>
             <SocialMedia>

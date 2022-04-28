@@ -9,7 +9,7 @@ import {
     FormLabel,
     FormInput,
     FormButton,
-    Text
+    // Text
 } from './SigninElements';
 
 const SignIn = () => {
@@ -23,10 +23,10 @@ const SignIn = () => {
                       <FormH1>Contact Me</FormH1>
                         <FormLabel htmlFor='for'>Email</FormLabel>
                             <FormInput type='email' required />
-                            <FormLabel htmlFor='for'>Password</FormLabel>
-                            <FormInput type='password' required />
+                            {/* <FormLabel htmlFor='for'>Password</FormLabel> */}
+                            {/* <FormInput type='password' required /> */}
                             <FormButton type='submit'>Continue</FormButton>
-                            <Text>Forgot Password</Text>
+                            {/* <Text>Forgot Password</Text> */}
                   </Form>
               </FormContent>
           </FormWrap>
