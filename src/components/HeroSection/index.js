@@ -27,7 +27,7 @@ const HeroSection = () => {
         <HeroContent>
           <HeroH1>Jason Doze</HeroH1>
             <HeroP>
-              Bio: You don't know me, fool. You disown me, cool. I don't need your assistance, social persistence. Any problem I got I just put my fist in
+              Bio: 
             </HeroP>
             <HeroBtnWrapper>
               <Button 
